@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Protocolos da Intenet</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<h1><a href="index.html">Danilo</a></h1>
+		<a href="#nav">Menu</a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="nav">
+			<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="topico1.html">Tópico Um</a></li>
+					<li><a href="topico2.html">Tópico Dois</a></li>
+					<li><a href="topico3.html">Tópico Três</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+	</nav>
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="container">
+
+			<header class="major special">
+				<h2>Protocolos da Intenet</h2>
+				<!--p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p-->
+			</header>
+
+			<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+
+			<h4>Texto desta pesquisa:</h4>
+			<blockquote>Nome: Natanael Santos<br>
+				Matrícula: 20717113 </blockquote>
+			<h2>Camada de Rede</h2>
+			<h4>IP</h4>
+			<p>O protocolo IP (Internet Protocol e, em português, Protocolo da
+				Internet), faz parte da camada Internet da sequência de protocolos TCP/IP. Ele
+				é um dos protocolos mais importantes da Internet, porque permite a elaboração
+				e o transporte dos datagramas IP (os pacotes de dados) sem, contudo,
+				assegurar a entrega dos pacotes de dados. O protocolo IP trata os datagramas
+				IP independentemente, definindo a sua representação, seu encaminhamento e
+				seu envio.</p>
+			<p>
+				O protocolo IP determina o destinatário da mensagem graças a três campos,
+				quais sejam o campo endereço IP, que é o endereço do computador, o campo
+				máscara de sub-rede, que permite ao endereço IP determinar a parte do
+				endereço que se refere à rede e o campo gateway estreita por padrão, que
+				permite ao protocolo Internet saber qual o computador que vai receber o
+				datagrama, caso o computador de destino não esteja na rede local.</p>
+			<h2>Camada de Transporte</h2>
+			<h4>TCP</h4>
+			<p>TCP é uma sigla que significa Transmission Control Protocol
+				(Protocolo de Controle de Transmissões, em uma tradução livre), que faz
+				referência ao sistema de envio de pacotes mais comum da internet. Ao acessar
+				um site, seu computador manda dados ao servidor pedindo que ele envie os
+				conteúdos da página à máquina que está sendo utilizada — as informações
+				enviadas de volta são “costuradas” pelo seu navegador para mostrar aquilo que
+				você deseja.
+			</p>
+			<p>
+				Esse processo de envio e recebimento de pacotes se repete toda vez que você
+				clica em um link, faz um login, publica um comentário ou faz basicamente
+				qualquer coisa. A principal característica do TCP é o fato de que ele não
+				somente envia dados como também recebe informações de volta para se
+				assegurar que os pacotes foram recebidos corretamente — mais ou menos
+				como alguém ligando para você para confirmar que um item enviado por
+				correio chegou ao destino corretamente.</p>
+			<h4>UDP</h4>
+			<p>
+				Espécie de “irmão” do protocolo TCP, o UDP (User Datagram
+				Protocol) também se baseia no envio de pacotes de informações, mas remove
+				toda a parte de verificação de erros da outra tecnologia. O objetivo dessa
+				opção é acelerar o processo de envio de dados, visto que todas as etapas de
+				comunicação necessárias para verificar a integridade de um pacote (e para
+				reenviá-lo, se necessário) contribuem para deixá-lo mais lento.</p>
+			<p>
+				Quando o protocolo UDP é acionado, ele simplesmente manda informações a
+				um destinatário, sem se preocupar se elas foram recebidas devidamente — em
+				caso de erros, simplesmente ocorre o envio do próximo pacote programado
+				pelo sistema, e os anteriores não podem ser recuperados. Embora esse
+				método de funcionamento potencialize a ocorrência de erros, ele garante uma
+				comunicação rápida entre dois computadores.</p>
+			<p>
+				Graças às suas características, o protocolo é bastante usado em situações nas
+				quais a correção de erros não é exatamente desejada. Durante a transmissão
+				de um vídeo ao vivo, por exemplo, é mais interessante que uma pessoa perca
+				alguns trechos ou tenha que lidar com distorções de imagem e áudio do que
+				esperar pelo recebimento de um pacote que se perdeu — o que pode acabar
+				com o fator “tempo real”.
+			</p>
+			<h4>RTP</h4>
+			<p>
+				O RTP(Real-time Transfer Protocol) é um protocolo de
+				transporte implementado na camada de aplicação. Para aplicações multimídia
+				em tempo real foi criado um protocolo genérico para as diversas aplicações de
+				áudio e vídeo.</p>
+			<p></p>
+			O RTP é executado sobre o UDP, que é um protocolo rápido, simples, sem
+			conexão e que combinado com o RTP é capaz de multiplexar os diversos
+			fluxos de informações multimídia, sobre um único fluxo de pacotes UDP. O
+			RTP é um protocolo que provê o transporte fim-a-fim das informações
+			multimídia, fazendo uma interface entre a camada de aplicação e de transporte.
+			Os cabeçalhos dos protocolos de transporte não fornecem nenhuma
+			informação sobre o tempo de transmissão dos pacotes. Essas informações
+			possibilitam ao receptor tentar compensar atrasos, tais como o jitter e a
+			latência.</p>
+			<p></p>
+			Outros protocolos que atual na internet que são bens comuns, SCTP e
+			CMP, cada uma se destinando à realização de uma tarefa específica.
+
+
+
+			</p>
+			<h2>Camada de Aplicação</h2>
+			<h4>HTTP</h4>
+			<p>Hypertext Transfer Protocol (HTTP) é o método utilizado para
+				enviar e receber informações na web.
+				O protocolo HTTP é baseado em requisições e respostas entre clientes e
+				servidores. O cliente — navegador ou dispositivo que fará a requisição;
+				também é conhecido como user agent — solicita um determinado recurso
+				(resource), enviando um pacote de informações contendo alguns cabeçalhos
+				(headers) a um URI ou, mais especificamente, URL. O servidor recebe estas
+				informações e envia uma resposta, que pode ser um recurso ou um
+				simplesmente um outro cabeçalho.</p>
+			<h4>SMTP</h4>
+			<p>O SMTP (Simple Mail Transfer Protocol) ou “Protocolo de
+				transferência de correio simples” é o protocolo padrão para o envio de e-mail
+				através da internet, ele foi padronizado em Agosto de 1982 por Jonathan B.
+				Postel.</p>
+			<p>
+				A princípio o protocolo SMTP utilizava por padrão a porta 25 ou 465 (conexão
+				criptografada) para conexão, porém a partir de 2013 os provedores de internet
+				e as operadoras do Brasil passaram a bloquear a porta 25, e começaram a
+				usar a porta 587 para diminuir a quantidade de SPAM.</p>
+			<p>
+				O SMTP é um protocolo que faz apenas o envio de e-mails, isso significa que o
+				usuário não tem permissão para baixar as mensagens do servidor, nesse caso
+				é necessário utilizar um Client de e-mail que suporte os
+				protocolos POP3 ou IMAP como o Outlook, Thunderbird e etc.</p>
+
+			<h4>VoIP</h4>
+			<p>
+				VoIP, ou Voz sobre Protocolo de Internet, é uma tecnologia que
+				permite a transmissão de voz por IP (Protocolos de Internet), ou seja,
+				transforma sinais de áudio analógicos, como em uma chamada, em dados
+				digitais que podem ser transferidos através da Internet. O método está cada
+				vez mais presente com softwares que possuem a tecnologia,
+				como Skype, Facebook Messenger, Viber e WhatsApp.</p>
+			<p>
+				Apesar de ter ganhado destaque no mercado recentemente, a tecnologia
+				surgiu no início da década de 1990 e chegou a ser considerada um fracasso
+				por causa da baixa velocidade de transmissão de dados da época. Porém, com
+				a popularização da Internet banda larga, a tecnologia passou a ganhar mais
+				espaço e foi investido em qualidade de serviço para que o método se tornasse
+				viável.</p>
+			<p>
+				Para que esse método seja possível, o VoIP captura a voz, que até então é
+				transmitida de forma analógica e a transforma em pacotes de dados que
+				podem ser enviados por qualquer protocolo TCP/IP. Sendo assim, o primeiro
+				passo é instalar algum software que permita a ação. Na prática, a transmissão
+				pode ser feita de duas formas, de um computador para outro ou de um
+				computador para um telefone convencional.
+
+			</p>
+			<h4>FTP</h4>
+			<p>Muito antes dos sistemas de armazenamento em nuvem,
+				nasceu o FTP (File Transfer Protocol). Desde os primórdios da Internet, ele é o
+				responsável por enviar arquivos para a web. Forma prática e versátil de
+				transferência de arquivos, ela serve basicamente para que usuários possam
+				enviar ou receber documentos da Grande Rede por meio de um endereço no
+				navegador ou um software instalado no PC.</p>
+			<p>
+				A transferência é feita entre um servidor e um cliente. O primeiro é o local onde
+				os arquivos ficam hospedados, enquanto o segundo é quem realiza a
+				operação. A conexão é sempre autenticada por um nome de usuário e servidor
+				em um determinado endereço de IP. Normalmente, o FTP é bastante útil para
+				pessoas que possuem discos virtuais na rede e para quem criou um site e tem
+				um sistema de hospedagem.</p>
+			<p>
+				Entre os softwares mais famosos estão o Filezilla e
+				o SmartFTP (Windows), Cyberduck (Mac) e Kasablanca (Linux). Cada um tem
+				suas particularidades e funcionalidades, porém o básico é sempre o mesmo:
+				basta inserir o IP do servidor, seu login e senha e ele automaticamente fará a
+				conexão. Assim será possível ter acesso a todos os arquivos hospedados no
+				local e também fazer o envio de outros documentos para o mesmo.</p>
+			<h2>Fontes</h2>
+			<blockquote>
+				<ol>
+					<li><a target="_blank" href="https://br.ccm.net/contents/276-o-protocolo-ip">https://br.ccm.net/contents/276-o-protocolo-ip</a></li>
+					<li><a target="_blank" href="https://nandovieira.com.br/entendendo-um-pouco-mais-sobre-o-protocolo-http">https://nandovieira.com.br/entendendo-um-pouco-mais-sobre-o-protocolo-http</a></li>
+					<li><a target="_blank" href="https://www.tecmundo.com.br/internet/57947-internet-diferenca-entre-protocolos-udp-tcp.htm">https://www.tecmundo.com.br/internet/57947-internet-diferenca-entre-protocolos-udp-tcp.htm</a></li>
+					<li><a target="_blank" href="http://www.teleco.com.br/tutoriais/tutorialpushtotalk2/pagina_3.asp">http://www.teleco.com.br/tutoriais/tutorialpushtotalk2/pagina_3.asp</a></li>
+					<li><a target="_blank" href="https://br.ccm.net/contents/282-os-protocolos-de-servico-de-mensagens-smtp-pop3-e-imap4">https://br.ccm.net/contents/282-os-protocolos-de-servico-de-mensagens-smtp-pop3-e-imap4</a></li>
+					<li><a target="_blank" href="https://www.secnet.com.br/blog/o-que-e-smtp">https://www.secnet.com.br/blog/o-que-e-smtp</a></li>
+					<li><a target="_blank" href="https://www.techtudo.com.br/artigos/noticia/2012/07/o-que-ftp-e-como-usar.html">https://www.techtudo.com.br/artigos/noticia/2012/07/o-que-ftp-e-como-usar.html</a></li>
+					<li><a target="_blank" href="https://www.techtudo.com.br/noticias/noticia/2015/03/entenda-o-voip-tecnologia-que-permite-apps-ligarem-pela-internet.html">https://www.techtudo.com.br/noticias/noticia/2015/03/entenda-o-voip-tecnologia-que-permite-apps-ligarem-pela-internet.html</a></li>
+				</ol>
+			</blockquote>
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+					<li><a href="https://web.facebook.com/borgesdanilo" class="icon fa-facebook" target="_blank">
+						<span class="label">Facebook</span>
+					</a></li>
+				<!--li><a href="#" class="icon fa-twitter">
+						<span class="label">Twitter</span>
+					</a></li>
+				<li><a href="#" class="icon fa-instagram">
+						<span class="label">Instagram</span>
+					</a></li>
+				<li><a href="#" class="icon fa-linkedin">
+						<span class="label">LinkedIn</span>
+					</a></li-->
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Untitled.</li>
+				<li>Images: <a href="http://unsplash.com">Unsplash</a>.</li>
+				<li>Design: <a href="http://templated.co">TEMPLATED</a>.</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
